@@ -14,7 +14,10 @@ Ce projet a été réalisé en 2020-2021 par Lysiane Burel, Zineb Bouharra, Reuv
 <li>Exécutez Main.java</li>
 <li>Une fois lancé, allez dans le menu "Edition", puis sélectionnez "Chargez depuis OpenStreetMap"</li>
 <li>Sélectionnez une zone à étudier</li>
+  <img src = "images/Interface.PNG" width = "300">
 <li>Cliquez sur "Chargez la zone"</li>
 <li>Laissez tourner quelques dizaines de secondes</li>
 <li>Observez le résultat. Les points rouges représentent les feux tricolores, et les différentes phases sont écrites à côté.</li>
+  <img src = "images/Result.png" width = "400">
 </ol>
+
