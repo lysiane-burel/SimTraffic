@@ -1,6 +1,6 @@
 # SimTraffic
 
-Ce projet a été réalisé en 2020-2021 par Lysiane Burel, Zineb Bouharra, Reuven Windisch, Louis Petitjean, Clément Teytaud, Dorian Gailhard, Mattéo Ratet, Ryuto Yokoyama.
+Ce projet a été réalisé en 2020-2021 par Lysiane Burel, Zineb Bouharra, Reuven Windisch, Louis Petitjean, Clément Teytaud, Dorian Gailhard, Mattéo Ratet et Ryuto Yokoyama.
 
 <h3>Logiciel de simulation et d'optimisation de traffic.</h3>
   
@@ -10,7 +10,7 @@ Ce projet a été réalisé en 2020-2021 par Lysiane Burel, Zineb Bouharra, Reuv
 
 <h4>Comment utiliser le logiciel ?</h4>
 <ol>
-<li>Téléchargez l'ensemble des programmes</li>
+<li>Téléchargez les dossiers src et data</li>
 <li>Exécutez Main.java</li>
 <li>Une fois lancé, allez dans le menu "Edition", puis sélectionnez "Chargez depuis OpenStreetMap"</li>
 <li>Sélectionnez une zone à étudier</li>
