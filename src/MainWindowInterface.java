@@ -26,7 +26,7 @@ public class MainWindowInterface extends JFrame{
         newMap.addActionListener(new ActionListener(){
         	
         	public void actionPerformed(ActionEvent e){  
-        		 //CrÃ©er une nouvelle carte
+        		 //CrÃƒÂ©er une nouvelle carte
             }  
         });
         fichier.add(newMap);
@@ -84,17 +84,17 @@ public class MainWindowInterface extends JFrame{
         undo.addActionListener(new ActionListener(){
         	
         	public void actionPerformed(ActionEvent e){
-        		//Annuler la derniÃ¨re action
+        		//Annuler la derniÃƒÂ¨re action
         	}  
         });
         edition.add(undo);
         
         
-        MenuItem redo = new MenuItem("R�tablir");
+        MenuItem redo = new MenuItem("Rétablir");
         redo.addActionListener(new ActionListener(){
         	
         	public void actionPerformed(ActionEvent e){
-        		//RÃ©tablir la derniÃ¨re action
+        		//RÃƒÂ©tablir la derniÃƒÂ¨re action
         	}  
         });
         edition.add(redo);
@@ -115,7 +115,7 @@ public class MainWindowInterface extends JFrame{
         showProblems.addActionListener(new ActionListener(){
         	
         	public void actionPerformed(ActionEvent e){
-        		//Ouvre la page avec la liste des pbs Ã  corriger
+        		//Ouvre la page avec la liste des pbs ÃƒÂ  corriger
         	}  
         });
         edition.add(showProblems);
@@ -126,11 +126,11 @@ public class MainWindowInterface extends JFrame{
 		menuBar.add(affichage);
 		
 		
-        MenuItem defaultZoom = new MenuItem("R�tablir le zoom par d�faut");
+        MenuItem defaultZoom = new MenuItem("Rétablir le zoom par défaut");
         defaultZoom.addActionListener(new ActionListener(){
         	
         	public void actionPerformed(ActionEvent e){
-        		//RÃ©tablir le zoom par dÃ©faut
+        		//RÃƒÂ©tablir le zoom par dÃƒÂ©faut
         	}  
         });
         affichage.add(defaultZoom);
@@ -140,7 +140,7 @@ public class MainWindowInterface extends JFrame{
         centerView.addActionListener(new ActionListener(){
         	
         	public void actionPerformed(ActionEvent e){
-        		//Recentre la vue sur le problÃ¨me choisi
+        		//Recentre la vue sur le problÃƒÂ¨me choisi
         	}  
         });
         affichage.add(centerView);
@@ -150,11 +150,11 @@ public class MainWindowInterface extends JFrame{
 		menuBar.add(outils);
 		
 		
-        MenuItem showToolsBox = new MenuItem("Afficher la bo�te � outils");
+        MenuItem showToolsBox = new MenuItem("Afficher la boîte à outils");
         showToolsBox.addActionListener(new ActionListener(){
         	
         	public void actionPerformed(ActionEvent e){
-        		//Ouvre la boite Ã  outils
+        		//Ouvre la boite ÃƒÂ  outils
         	}  
         });
         outils.add(showToolsBox);
@@ -170,11 +170,11 @@ public class MainWindowInterface extends JFrame{
         outils.add(compute);
         
         
-        MenuItem settings = new MenuItem("Param�tres de calcul");
+        MenuItem settings = new MenuItem("Paramètres de calcul");
         settings.addActionListener(new ActionListener(){
         	
         	public void actionPerformed(ActionEvent e){
-        		//Ouvre la page avec les paramÃ¨tres
+        		//Ouvre la page avec les paramÃƒÂ¨tres
         	}  
         });
         outils.add(settings);
