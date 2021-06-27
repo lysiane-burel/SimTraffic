@@ -16,7 +16,7 @@ public class SelectionArea extends JLabel{
 	private float w = 0;
 	private float h = 0;
     private final UserInterface ui;
-    private ImageIcon background; //Pour éviter d'avoir à le recharger à chaque zoom
+    private ImageIcon background; //Pour Ã©viter d'avoir Ã  le recharger Ã  chaque zoom
     
 	public SelectionArea(ImageIcon image, UserInterface ui) {
 		super(image);
@@ -68,7 +68,7 @@ public class SelectionArea extends JLabel{
 		//Zoom de l'image
 		Image resizeImage = (background.getImage()).getScaledInstance((int)(background.getIconWidth()*zoom), (int)(background.getIconHeight()*zoom), Image.SCALE_SMOOTH);
 		
-		//Déplacement de l'image
+		//DÃ©placement de l'image
 		Image movedImage = createImage(new FilteredImageSource(resizeImage.getSource(),new CropImageFilter((int)(posx*zoom), (int)(posy*zoom),823,659)));
 		
 		ImageIcon icon = new ImageIcon(movedImage);
