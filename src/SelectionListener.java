@@ -55,7 +55,7 @@ public class SelectionListener extends MouseInputAdapter {
     	if (SwingUtilities.isMiddleMouseButton(e)) {
     		ui.getUIModel().updatePos(e.getX(), e.getY());
     		
-        	//On met à jour la taille de la fenêtre
+        	//On met Ã  jour la taille de la fenÃªtre
         	ui.pack();
     	}
     }
