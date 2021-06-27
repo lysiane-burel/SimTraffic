@@ -15,8 +15,8 @@ public class UserInterface extends JFrame implements ChangeListener{
 	
 	private SelectionArea area;
 	private final UIModel uIModel = new UIModel();
-	private final JToggleButton selectButton = new JToggleButton("S�lection");
-	private final JToggleButton moveButton = new JToggleButton("D�placer");
+	private final JToggleButton selectButton = new JToggleButton("Sélection");
+	private final JToggleButton moveButton = new JToggleButton("Déplacer");
 	private final JScrollBar zoomBar = new JScrollBar(JScrollBar.HORIZONTAL);
 	
 	public UserInterface() {
@@ -61,7 +61,7 @@ public class UserInterface extends JFrame implements ChangeListener{
         modeZoomPanel.setLayout(new BoxLayout(modeZoomPanel,BoxLayout.LINE_AXIS));
         modeZoomPanel.add(Box.createRigidArea(new Dimension(10,0)));
         
-        //Panel pour les boutons pour changer de mode (sélection ou déplacement)
+        //Panel pour les boutons pour changer de mode (sÃ©lection ou dÃ©placement)
         JPanel modeButtonsPanel = new JPanel();
         modeZoomPanel.add(modeButtonsPanel);
         modeButtonsPanel.setLayout(new BoxLayout(modeButtonsPanel,BoxLayout.PAGE_AXIS));
@@ -172,8 +172,8 @@ public class UserInterface extends JFrame implements ChangeListener{
                 frameBegin.dispose();
                 
                 JFrame frameEnd = new JFrame();
-        		frameEnd.setTitle("Calcul termin� !");
-        		JOptionPane.showMessageDialog(frameEnd, "Le calcul est termin�.");
+        		frameEnd.setTitle("Calcul terminé !");
+        		JOptionPane.showMessageDialog(frameEnd, "Le calcul est terminé.");
         		frameEnd.pack();
         	}
         });
