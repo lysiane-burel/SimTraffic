@@ -24,7 +24,7 @@ public class LoadingWindowInterface  extends JFrame{
 		progressBar.setStringPainted(true);
 		
 		//Le petit texte
-		label.setText(String.format("Veuillez patienter, %d générations ont été calculées.", 0));
+		label.setText(String.format("Veuillez patienter, %d gÃ©nÃ©rations ont Ã©tÃ© calculÃ©es.", 0));
 		label.setAlignmentX(CENTER_ALIGNMENT);
 		
 		//Mise en page
@@ -50,18 +50,18 @@ public class LoadingWindowInterface  extends JFrame{
 		pack();
 	}
 	
-	//Met Ã  jour l'avancement
+	//Met ÃƒÂ  jour l'avancement
 	public void update(int percent, int numberGenerationsDone) {
 		progressBar.setValue(percent);
-		label.setText(String.format("Veuillez patienter, %d générations ont été calculées.", numberGenerationsDone));
+		label.setText(String.format("Veuillez patienter, %d gÃ©nÃ©rations ont Ã©tÃ© calculÃ©es.", numberGenerationsDone));
 	}
 	
-	//Quand c'est fini, Ã§a ferme la fenÃªtre et ouvre un pop-up
+	//Quand c'est fini, ÃƒÂ§a ferme la fenÃƒÂªtre et ouvre un pop-up
 	public void done() {
 		dispose();
 		JFrame frame = new JFrame();
-		frame.setTitle("Calcul terminé !");
-		JOptionPane.showMessageDialog(frame, "Le calcul est terminé.");
+		frame.setTitle("Calcul terminÃ© !");
+		JOptionPane.showMessageDialog(frame, "Le calcul est terminÃ©.");
 		frame.pack();
 	}
 	
